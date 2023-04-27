@@ -14,10 +14,25 @@ html, body {
         padding: 0;
         }
 
-.headercontainer {
-    background-color: #FEA7CF;
+.header {
+    padding: 10px 16px;
+    background: #FFFFFF;
+    color: #010000;
     display: flex;
-    padding: 20px;
+    flex-direction: row;
     justify-content: space-evenly;
-    justify-content: flex-end;
-}
+  }
+  
+  .content {
+    padding: 16px;
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .sticky + .content {
+    padding-top: 102px;
+  }
