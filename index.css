@@ -1,0 +1,23 @@
+.flexlayout {
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+
+html, body {
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    height: 100%;
+    }
+    body {
+        margin: 0;
+        padding: 0;
+        }
+
+.headercontainer {
+    background-color: #FEA7CF;
+    display: flex;
+    padding: 20px;
+    justify-content: space-evenly;
+    justify-content: flex-end;
+}
