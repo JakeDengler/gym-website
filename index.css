@@ -36,3 +36,13 @@ html, body {
   .sticky + .content {
     padding-top: 102px;
   }
+
+.joinbar {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
