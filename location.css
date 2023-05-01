@@ -10,6 +10,10 @@ body {
 
 nav {
     width: 100%;
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    z-index: 9999;
     background-color: black;
     display: flex;
     justify-content: space-between;
@@ -43,18 +47,9 @@ nav {
 .nav-item:hover {
     background-color: #76C3BA;
   }
- 
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
-  
-.sticky + .content {
-    padding-top: 102px;
-  }
 
-.container {
+.googlemapscontainer {
+    margin-top: 100px;
     width: 100%;
     height: 600px;
 }
