@@ -51,8 +51,8 @@ nav {
   }
 
 .contactcontainer {
-  margin-top: 620px;
-  margin-left: 29px;
+  margin-top: 520px;
+  padding: 100px;
   width: 100%;
   height: 10px;
   display: flex;
@@ -76,19 +76,20 @@ nav {
   border-top-left-radius: 48px;
   border-bottom-left-radius: 48px;
   background-image: linear-gradient(#76C3BA, #85fff1);
+  transition: width 1.5s cubic-bezier(0.19, 1, 0.22, 1);
 }
 
 .header {
   position: absolute;
+  top: 60%;
+  left: 8%;
   color: white;
   width: 480px;
   text-align: center;
-  top:60%;
-  left: -25px;
-  z-index: 100;
+  z-index: 9998;
 
 }
-.logobutton {
+.logoBackground button {
   position: absolute;
   background-color: transparent;
   border: 1px solid white;
@@ -108,20 +109,25 @@ nav {
   width: 960px;
   height: 100%;
   left: 100px;
-  padding: 165px 0;
+  padding: 165px 130px;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
-  
+  transition: left 1.5s cubic-bezier(0.19, 1, 0.22, 1);
+
 }
 
 .input {
-  height: 448px;
+  height: 480x;
   padding: 16px 16px 16px 48px;
 }
 
 .contactSignUpForm p {
   margin-bottom: 32px;
   font-size: 15px;
+}
+
+.input {
+  position: relative;
 }
