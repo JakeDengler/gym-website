@@ -49,12 +49,13 @@ nav {
   }
 
 .contactcontainer {
-  margin-top: 350px;
+  margin-top: 400px;
   width: 100%;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 100px;
 }
 
 .candywrapper {
@@ -67,9 +68,52 @@ nav {
 
 .logoBackground {
   position: absolute;
-  top: 0;
   left:0;
-  width: 40%;
+  width: 50%;
   height: 100%;
   background-image: linear-gradient(#76C3BA, #85fff1);
+}
+
+.header {
+  position: absolute;
+  color: white;
+  width: 480px;
+  text-align: center;
+  top:60%;
+  left: -25px;
+  z-index: 100;
+
+}
+.logobutton {
+  position: absolute;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 48px;
+  text-transform: uppercase;
+  top: 60%;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 80px;
+  width: 256px;
+  color: white;
+  cursor: pointer;
+}
+
+.contactSignUpForm {
+  position:absolute;
+  width: 960px;
+  height: 100%;
+  left: 100px;
+  top: 180px;
+  padding: 165px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+
+.contactSignUpForm p {
+  margin-bottom: 32px;
+  font-size: 15px;
 }
