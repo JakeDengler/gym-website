@@ -6,6 +6,8 @@ html, body {
 body {
     margin: 0;
     padding: 0;
+     box-sizing: border-box;
+    outline: none;
     }
 
 nav {
@@ -49,28 +51,30 @@ nav {
   }
 
 .contactcontainer {
-  margin-top: 400px;
+  margin-top: 620px;
+  margin-left: 29px;
   width: 100%;
-  height: 100vh;
+  height: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 100px;
 }
 
 .candywrapper {
-  height: 1120px;
-  width: 1600px;
+  height: 1000px;
+  width: 1000px;
   background-color: #F9C83F;
   border-radius: 48px;
   box-shadow: 0 32px 96px rgba(0, 0, 0, .5);
+  overflow: hidden;
 }
 
 .logoBackground {
   position: absolute;
-  left:0;
+  height: 1000px;
   width: 50%;
-  height: 100%;
+  border-top-left-radius: 48px;
+  border-bottom-left-radius: 48px;
   background-image: linear-gradient(#76C3BA, #85fff1);
 }
 
@@ -104,13 +108,17 @@ nav {
   width: 960px;
   height: 100%;
   left: 100px;
-  top: 180px;
   padding: 165px 0;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
   
+}
+
+.input {
+  height: 448px;
+  padding: 16px 16px 16px 48px;
 }
 
 .contactSignUpForm p {
