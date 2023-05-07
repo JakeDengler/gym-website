@@ -71,7 +71,7 @@ html, body {
     height: 300px;
     width: 100%;    
     border: black;
-    border-width: 10px;
+    border-width: 15px;
     padding: 10px;
     border-style: solid;
     align-items: center;
@@ -88,13 +88,18 @@ html, body {
     flex-direction: column;
     border: black;
     border-style: solid;
-    border-width: 10px;
+    border-width: 15px;
+    padding: 10px;
 
 }
 .profileContainer {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
+
+.profileContainer p {
+    padding: 10px;
 }
 
 .profilePicture {
