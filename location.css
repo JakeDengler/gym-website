@@ -91,3 +91,33 @@ nav {
     width: 100%;
     padding: 10px;
 }
+
+.joinbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: px;
+  margin: 20px;
+  background-image: linear-gradient(#85fff1, #76C3BA);
+  box-shadow: 0 16px px rgba(1, 0, 0, 1);
+  border-radius: 60px;
+}
+
+.contact button {
+  padding: 10px;
+  margin: 10px;
+  border: none;
+  background-color: black;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  color: #fff;
+}
+
+.contact button:hover {
+  background-color: grey;
+}
+
+.footer {
+  height: 5%;
+  width: 100%;
+}
