@@ -54,15 +54,52 @@ nav {
 }
 
 .intro {
-  margin-top: 20px;
+  margin-top: 100px;
+  padding: 20px 30px 10px 30px;
+  display: flex;
+  flex-direction: row;
   }
 
+.intro img {
+  width: 600px;
+  height: 500px;
+  padding-right: 48px;
+}
+
+.intro p {
+
+}
+
 .joinbar {
-    background-color: black;
+    background-image: linear-gradient(to right,#A03026, #D14547);
     color: white;
     display: flex;
     flex-direction: row;
+    height: 100px;
     align-items: center;
     justify-content: space-evenly;
+    border-radius: 96px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
 
+.photosection {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+.photosection img {
+  width: 400px;
+  height: 400px;
+}
+
+button {
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+  border: none;
+  background-color: black;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  color: #fff;
 }
