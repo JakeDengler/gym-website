@@ -85,6 +85,7 @@ nav {
 
 .photosection {
   display: flex;
+  flex-direction: column;
   justify-content: space-evenly;
   padding: 20px;
 }
@@ -102,4 +103,30 @@ button {
   text-transform: uppercase;
   letter-spacing: 0.1rem;
   color: #fff;
+}
+
+.calendar h1 {
+  position: absolute;
+  align-items: center;
+}
+.calendar div{
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.calendar img {
+  width: 480px;
+  height: 100%;
+}
+
+.gymEvents {
+  padding: 20px;
+}
+
+.gymEvents img {
+  width: 480px;
+  height: 100%;
 }
