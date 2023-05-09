@@ -58,21 +58,30 @@ nav {
   padding: 20px 30px 10px 30px;
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
   border-style: solid;
-  border-width: 15px;
-  border-radius: 10px;
+  border-color: #76C3BA;
+  border-width: 40px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  background-color: #f9c73fe7;
 }
 
 .intro img {
   width: 600px;
   height: 500px;
-  padding-right: 48px;
+  border-radius: 20px;
+}
+
+.intro h1 {
+  font-size: xxx-large;
+  padding: 25px 20px 0px;
 }
 
 .intro p {
-
+  font-size: x-large;
+  padding: 0px 25px 20px;
 }
-
 .joinbar {
     background-image: linear-gradient(to right,#A03026, #D14547);
     color: white;
@@ -92,10 +101,13 @@ nav {
   flex-direction: column;
   justify-content: space-evenly;
   padding: 20px;
-}
-.photosection img {
-  width: 400px;
-  height: 400px;
+  background-color: #f9c73fe7;
+  border: #76C3BA;
+  border-width: 40px;
+  border-radius: 30px;
+  border-style: solid;
+  margin-top: 10px;
+  
 }
 
 .boxSection {
@@ -103,8 +115,21 @@ nav {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  padding: 10px 10px 36px 10px;
+  padding: 10px 20px 36px;
   margin: 10px;
+}
+
+.boxSection img {
+  width: 400px;
+  height: 400px;
+}
+.boxSectionWords {
+  font-size: large;
+  padding: 0px 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 button {
@@ -118,16 +143,15 @@ button {
   color: #fff;
 }
 
-.calendar h1 {
-  position: absolute;
-  align-items: center;
-}
-.calendar div{
-  padding: 20px;
+.calendar {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-
+  border: #76C3BA;
+  border-width: 40px;
+  border-radius: 30px;
+  border-style: solid;
 }
 
 .calendar img {
@@ -136,7 +160,14 @@ button {
 }
 
 .gymEvents {
-  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: #76C3BA;
+  border-width: 40px;
+  border-radius: 30px;
+  border-style: solid;
 }
 
 .gymEvents img {
