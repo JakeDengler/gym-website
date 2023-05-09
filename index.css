@@ -58,7 +58,10 @@ nav {
   padding: 20px 30px 10px 30px;
   display: flex;
   flex-direction: row;
-  }
+  border-style: solid;
+  border-width: 15px;
+  border-radius: 10px;
+}
 
 .intro img {
   width: 600px;
@@ -75,6 +78,7 @@ nav {
     color: white;
     display: flex;
     flex-direction: row;
+    margin-top: 10px;
     height: 100px;
     align-items: center;
     justify-content: space-evenly;
@@ -92,6 +96,15 @@ nav {
 .photosection img {
   width: 400px;
   height: 400px;
+}
+
+.boxSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 10px 36px 10px;
+  margin: 10px;
 }
 
 button {
