@@ -21,6 +21,7 @@ html, body {
   }
   .logo {
     display: inline-block;
+  
   }
   
   .logo img {
@@ -71,7 +72,7 @@ html, body {
     height: 300px;
     width: 100%;    
     border: black;
-    border-width: 15px;
+    border-width: 10px;
     padding: 10px;
     border-style: solid;
     align-items: center;
