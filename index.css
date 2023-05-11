@@ -118,12 +118,13 @@ nav {
 }
 
 .photosection {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
+  display: grid;
+  place-items: center;
+  align-items: center;
   padding: 20px;
   margin-top: 10px;
   margin: 10px;
+  min-height: 100vh;
   
 }
 
@@ -134,6 +135,11 @@ nav {
   align-items: center;
   padding: 10px 20px 36px;
   margin: 10px;
+  opacity: 0;
+}
+
+.show {
+  opacity: 1;
 }
 
 .boxSection img {
